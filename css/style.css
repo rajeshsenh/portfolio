@@ -631,6 +631,8 @@ div.link{
 
 .contact p a{
     color:#7a7a7a;
+    outline: none;
+    text-decoration: none;
 }
 
 .contact p a:hover{
@@ -727,18 +729,18 @@ i.scroll:hover {
 
 /* === scroll up === */
 a.scrolltotop {
-    height: 32px;
-    width: 32px;
+    height: 28px;
+    width: 28px;
     color: #f24971;
     border: 2px solid #f24971;
     border-radius: 32px; 
     font-size: 20px;
-    line-height: 32px;
+    line-height: 23px;
     text-align: center;
     text-decoration: none;
     position: fixed;
-    bottom: 10px;
-    right: 10px;
+    bottom: 18px;
+    right: 18px;
     z-index: 9999;
     opacity: 0.5;
 }
